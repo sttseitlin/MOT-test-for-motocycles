@@ -1,8 +1,10 @@
 # MOT test for motorcycles
 MOT Test is annual test of vehicle safety, roadworthiness aspects and exhaust emissions required in the United Kingdom for most vehicles over three years old. The goal of my project is to analyze results of MOT test committed by Class II, that is all motorcycles with or without sidecars. Class II includes Class I(motos up to 200cc). Period of analysis is 2024.
 
+In **'test_result'** table one `vehicle_id` can have several `test_id`, meaning test results until last one were unsuccessful. Except failed and passed last tests, there are `vehicle_id` which 'decided' not to retake the test for some reasons. Test is considered as 'Failed' if one or more vehicle items have dangerous or major defect. Minor defect will not cause the vehicle to fail the test. (`rfr_deficiency_category` column in **'item_detail'** table).
+
 ## Overview of tables
-### 'test_result' table
+### **'test_result'** table
 Contains details of individual MOT tests and of the vehicle tested. All tests which could result in a valid pass result are included. 
 Column Name  | Description | Notes
 --- | --- | ---
@@ -91,5 +93,8 @@ Reference for Location IDs in Test Item Table
 | **lateral** | Lateral Location |Boolean value |
 | **vertical** | Vertical Location |Boolean value |
 | **longitudinal** | Longitudinal Location | Boolean value|
+
+
+
 
 
