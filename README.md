@@ -27,7 +27,7 @@ completed_date | Date and time of test completion
 | :--- | :--- | :--- |
 | P | Pass | Test Pass |
 | F | Fail | Test Fail |
-| PRS | Pass with Rectification at Station | The process where defects may be rectified within one hour after the test, but before recording the result on the VTS Device (Vehicle begins the test in a fail condition, but is in pass condition when result is input). |
+| PRS | Pass with Rectification at Station | The process where defects may be rectified within one hour after the test, but before recording the result on the Vehicle Test Station (VTS) Device (Vehicle begins the test in a fail condition, but is in pass condition when result is input). |
 | ABA | Abandon | The term used when a test cannot be completed because the NT considers it unsafe to continue or because it becomes apparent during the test that certain items cannot be satisfactorily inspected. An appropriate fee may be charged for the test. |
 | ABR | Abort | The term used when a test cannot be completed because of a problem with the testing equipment or the NT. No fee may be charged for the test. |
 
