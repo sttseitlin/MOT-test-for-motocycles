@@ -62,7 +62,7 @@ Contains details of individual RfRs
 | **test_class_id** | Class of Vehicle Tested | Will be dropped as we analyze only Class II
 | **test_item_id** | Test Item ID | References parent test item in Test Item Group table (with Test Class ID) |
 | **rfr\_deficiency\_category** | EU category | 'Pre-EU Directive', 'Minor', 'Major', 'Dangerous' |
-| **Minor Item** | Minor Item Marker – Specifies whether an item can be classified as minor (qualifies for free partial retest). | 
+| **minor_item** | Minor Item Marker – Specifies whether an item can be classified as minor (qualifies for free partial retest). | 
 | **rfr_desc** | RfR Short Description | Text printed on VT30 test failure document (Will be dropped ) | 
 | **rfr_loc_marker** | RfR Location Marker – Specifies whether further location details are required against this item. | 
 | **rfr_insp_manual_desc** | RfR Inspection Manual Description | will be renamed to `rfr_desc`
