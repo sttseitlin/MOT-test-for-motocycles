@@ -22,9 +22,7 @@ cylinder_capacity | Vehicle engine power
 first_use_date | Vehicle date of first use
 completed_date | Date and time of test completion
 
-# test_type column 
-### Test Outcomes:
-
+# test_result column 
 | Result Code | Result | Notes |
 | :--- | :--- | :--- |
 | P | Pass | Test Pass |
