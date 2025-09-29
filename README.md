@@ -4,7 +4,7 @@ MOT Test is annual test of vehicle safety, roadworthiness aspects and exhaust em
 ## Overview of tables
 ### test_result table
 This contains details of individual MOT tests and of the vehicle tested. All tests which could result in a valid pass result are included. 
-Column name  | Description | Notes
+Column Name  | Description | Notes
 --- | --- | ---
 **test_id** | Unique identifier for a test | 
 **vehicle_id** | Unique id of vehicle | 
