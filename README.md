@@ -10,5 +10,15 @@ test_id | Unique id of test, each separate test has own id
 vehicle_id | Unique id of vehicle
 test_date | Date of test
 test_class_id | Id of vehicle class(will be dropped as we analyze only Class II)
-test_type | Two types of test: NT - full initial test, RT - full retest of vehicle
+test_type | Test type
+test_result | Result of the test
+test_mileage | Mileage recorded at point of test
+postcode_area | Test location (high-level postcode region) 
+make | Vehicle brand
+model | Vehicle model
+colour | Vehicle colour (will be dropped)
+fuel_type | Vehicle fuel type (will be dropped)
+cylinder_capacity | Vehicle engine power
+first_use_date | Vehicle date of first use
+completed_date | Date and time of test completion
 
