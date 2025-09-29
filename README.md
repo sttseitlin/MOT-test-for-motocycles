@@ -1,1 +1,1 @@
-# mot-for-motos
+# MOT test for motorcycles
