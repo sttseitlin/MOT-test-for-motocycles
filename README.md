@@ -3,7 +3,7 @@ MOT Test is annual test of vehicle safety, roadworthiness aspects and exhaust em
 
 ## Overview of tables
 ### mt (original name: test_result)
-Column name  Description
+Column name  | Description
 ---
 test_id | Unique id of test, each separate test has own id
 ---
