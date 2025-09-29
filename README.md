@@ -6,8 +6,12 @@ MOT Test is annual test of vehicle safety, roadworthiness aspects and exhaust em
 Column name  Description
 ---
 test_id | Unique id of test, each separate test has own id
+---
 vehicle_id | Unique id of vehicle
+---
 test_date | Date of test
-test_class_id | Id of vehicle class(will be dropped as we analyze only Class II)\
+---
+test_class_id | Id of vehicle class(will be dropped as we analyze only Class II)
+---
 test_type | Two types of test: NT - full initial test, RT - full retest of vehicle
 
