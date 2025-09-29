@@ -2,8 +2,8 @@
 MOT Test is annual test of vehicle safety, roadworthiness aspects and exhaust emissions required in the United Kingdom for most vehicles over three years old. The goal of my project is to analyze results of MOT test committed by Class II, that is all motorcycles with or without sidecars. Class II includes Class I(motos up to 200cc). Period of analysis is 2024.
 
 ## Overview of tables
-### test_result table
-This contains details of individual MOT tests and of the vehicle tested. All tests which could result in a valid pass result are included. 
+### 'test_result' table
+Contains details of individual MOT tests and of the vehicle tested. All tests which could result in a valid pass result are included. 
 Column Name  | Description | Notes
 --- | --- | ---
 **test_id** | Unique identifier for a test | 
@@ -33,8 +33,8 @@ Column Name  | Description | Notes
 
 <br>
 
-### test_item table 
-This contains details of individual MOT test failure items. 
+### 'test_item' table 
+Contains details of individual MOT test failure items. 
 | Column Name | Description | Notes |
 | :--- | :--- | :--- |
 | **test_id** | Unique Identifier for a test. References associated test in Vehicle Test Result table. |
@@ -54,8 +54,8 @@ completed_date | Date and time of test completion |
 
 <br>
 
-### item_detail table
-This contains details of individual RfRs
+### 'item_detail' table
+Contains details of individual RfRs
 | Column Name | Description | Notes |
 | :--- | :--- | :--- |
 | **rfr_id** | Reason for Rejection ID |  
@@ -71,8 +71,8 @@ This contains details of individual RfRs
 
 <br>
 
-### item_group table 
-This contains details of RfR groupings within the test item hierarchy. The top level group for a Test Class is always ‘Vehicle’, with a Test Item ID of 0. 
+### 'item_group' table 
+Contains details of RfR groupings within the test item hierarchy. The top level group for a Test Class is always ‘Vehicle’, with a Test Item ID of 0. 
 | Column Name | Description | Notes |
 | :--- | :--- | :--- |
 | **test\_item\_id** | Test Item ID | Primary Key |
@@ -83,7 +83,7 @@ This contains details of RfR groupings within the test item hierarchy. The top l
 
 <br>
 
-### rfr_location table
+### 'rfr_location' table
 Reference for Location IDs in Test Item Table
 | Column Name | Description | Notes |
 | :--- | :--- | :--- |
