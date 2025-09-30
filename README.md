@@ -3,6 +3,11 @@ MOT Test is annual test of vehicle safety, roadworthiness aspects and exhaust em
 
 In **'test_result'** table one `vehicle_id` can have several `test_id`, meaning test results until last one were unsuccessful. Except failed and passed last tests, there are `vehicle_id` which 'decided' not to retake the test for some reasons. Test is considered as 'Failed' if one or more vehicle items have dangerous or major defect. Minor defect will not cause the vehicle to fail the test. (`rfr_deficiency_category` column in **'item_detail'** table).
 
+The dataset is not included in this repository due to size constraints. You can download it from https://www.data.gov.uk/dataset/c63fca52-ae4c-4b75-bab5-8b4735e1a4c9/anonymised-mot-tests-and-results .
+You also can find detailed guide in "Supporting documents" section.
+
+The notebooks already contain example outputs, so you can explore results without the dataset.
+
 ## Overview of tables
 ### **'test_result'** table
 Contains details of individual MOT tests and of the vehicle tested. All tests which could result in a valid pass result are included. 
